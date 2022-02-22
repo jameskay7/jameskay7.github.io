@@ -45,6 +45,10 @@ section img{
     visibility: hidden;
 }
 
+section{
+    text-align: center;
+}
+
 section h3{
     flex-wrap: wrap;
     text-align: center;
