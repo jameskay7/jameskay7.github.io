@@ -35,6 +35,10 @@ header #button button:hover{
     cursor: pointer;
 }
 
+section{
+    text-align: center;
+}
+
 section h2{
     text-align: center;
 }
@@ -43,10 +47,6 @@ section img{
     width: 50%;
     height: 50%;
     visibility: hidden;
-}
-
-section{
-    text-align: center;
 }
 
 section h3{
