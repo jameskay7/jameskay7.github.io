@@ -1,0 +1,66 @@
+*{
+    font-family: 'Helvetica';
+    font-smooth: auto;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+
+header h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+header h4,p{
+    text-align: center;
+}
+
+
+#button{
+    padding: 15px;
+    text-align: center;
+}
+
+#button button{
+    padding: 20px;
+    background-color: #4895ef;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+
+header #button button:hover{
+    background-color: #4361ee;
+    cursor: pointer;
+}
+
+section h2{
+    text-align: center;
+}
+
+section img{
+    width: 50%;
+    height: 50%;
+    visibility: hidden;
+}
+
+section h3{
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 1.8;
+    padding: 50px;
+}
+
+
+@media (min-width: 410px) and (max-width: 901px){
+    section h3{
+        font-size: 15px;
+    }
+
+    #button{
+        padding: 25px;
+    }
+
+
+}
